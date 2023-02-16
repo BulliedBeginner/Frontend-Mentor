@@ -10,10 +10,14 @@
 <body>
 
     <div class="card">
-        <img class="img-section" src="/images/image-product-desktop.jpg" alt="">
+        <picture>
+            <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+            <img src="images/image-product-mobile.jpg" alt="Gabrielle Essense perfume bottle laying flat on a table with green leaves above and below it">
+        </picture>
+
         <div class="detail-section">
             <div class="brand">Preview</div>
-            <div class="title">Gabrielle Essence Eau De Parfum</div>
+            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
             <div class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</div>
             
             <div class="price">
